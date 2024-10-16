@@ -1,0 +1,26 @@
+// declarando variavel
+let heroi = "gabiloide";
+let lvlxp = 1609;
+
+// vou declarar umas perguntas pro sistema
+let classif = "";
+
+if (lvlxp < 1000 ) { classif = " ferro "
+;}
+
+else if (lvlxp >= 1001 && lvlxp <= 2000 ) { classif = " bronze "
+;} 
+else if (lvlxp >= 2001 && lvlxp <= 5000) { classif = " prata " 
+;}
+else if (lvlxp >= 5001 && lvlxp <= 7000) { classif = " ouro "
+;}
+else if (lvlxp >= 7001 && lvlxp <= 8000 ) { classif = " platina "  
+;} 
+else if (lvlxp >= 8001 && lvlxp <= 9000) { classif = " ascendente "
+;} 
+else if (lvlxp >= 9001 && lvlxp <= 10000 ) { classif = " imortal "
+;} 
+else { classif = " radiante "  ;}  
+ 
+//resultado 
+console.log("O jogador com nome de " + heroi + " esta classificado no Rank de " + classif )
